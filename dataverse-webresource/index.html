@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>MapAreaTools Dataverse WebResource</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../common/ios-drawer.css" />
+		<script type="text/javascript" src="../ClientGlobalContext.js.aspx"></script> <!-- This script is expected to be in the first level of web resources subfolder when loaded in Dataverse context. Change the relative path in other case. -->
+	</head>
+	<body style="margin: 0px;">
+		<div id="map" style="height: calc(100vh - 2px)"></div>
+		<span id="error-text"></span>
+		<div id="iosDrawer" class="ios-drawer">
+			<div class="drawer-handle" id="drawerHandle"></div>
+			<div class="drawer-commands" id="drawerCommands"></div>
+		</div>
+
+		<script type="module" src="./src/main.ts"></script>
+	</body>
+</html>
