@@ -1,0 +1,23 @@
+{
+  "name": "map-area-offline-html-azure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "remote": "vite --host"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@resconet/azure-maps": "^1.0.0",
+    "@resconet/jsbridge": "^18.2.0-beta",
+    "@resconet/map-area-tools": "^1.0.0",
+    "@resconet/map-interface": "^1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  }
+}

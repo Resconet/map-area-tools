@@ -1,0 +1,49 @@
+			.ios-drawer {
+				position: fixed;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: #fff;
+				box-shadow: 0 -2px 16px rgba(0, 0, 0, 0.15);
+				border-top-left-radius: 18px;
+				border-top-right-radius: 18px;
+				transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+				transform: translateY(0);
+				z-index: 1000;
+				max-width: 800px;
+				margin: 0 auto;
+			}
+			.ios-drawer.collapsed {
+				transform: translateY(80%);
+			}
+			.drawer-handle {
+				width: 100px;
+				height: 5px;
+				background: #ccc;
+				border-radius: 3px;
+				margin: 16px auto 42px auto;
+				cursor: pointer;
+			}
+			.drawer-commands {
+				padding: 0 0 24px 0;
+			}
+			/* Set style for command buttons created from MapAreaFetch component. */
+			.map-area-command-button {
+				display: none;
+				width: calc(100% - 24px);
+				margin: 10px 12px 10px 12px;
+				background: #346e67;
+				border: none;
+				border-radius: 12px;
+				padding: 12px 20px;
+				font-size: 16px;
+				color: white;
+				cursor: pointer;
+				transition: background 0.2s;
+			}
+			.map-area-command-button.active {
+				display: block;
+			}
+			.map-area-command-button:active {
+				background: #e5e5ea;
+			}
