@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@resconet/azure-maps": "^1.0.0",
-    "@resconet/jsbridge": "^18.2.0-beta",
+    "@resconet/jsbridge": "^18.2.0",
     "@resconet/map-area-tools": "^1.0.0",
     "@resconet/map-interface": "^1.0.0"
   },
