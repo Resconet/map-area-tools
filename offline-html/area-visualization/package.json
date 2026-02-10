@@ -12,7 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@resconet/jsbridge": "^18.2.0",
+    "@resconet/jsbridge": "^19.0.0",
     "@resconet/map-area-tools": "^1.0.0",
     "@resconet/map-interface": "^1.0.0"
   },
